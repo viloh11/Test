@@ -129,6 +129,8 @@ main img{
     font-size: 1.5rem;
 }
 
+/* MAIN SECTION */
+
 section{
     background-color: white;
 }
@@ -158,6 +160,19 @@ section{
 .card img{
     width: 100%;
     border-radius: 8px;
+}
+
+.parag{
+    width: 50%;
+}
+
+.download{
+    text-decoration: none;
+    color: white;
+    gap: 4px;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 
