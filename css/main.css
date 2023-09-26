@@ -21,12 +21,17 @@ p, strong, span, h1,h2,h3, a, i, li{
     width: 100%;
 }
 
+section{
+    padding:20px 10px;
+}
+
 img{
     width: 100%;
 }
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* NAVBAR */
@@ -41,16 +46,35 @@ header{
     padding: 20px 30px;
 }
 
+.title{
+    font-size:1rem ;
+}
+
+.icon-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bars{
+    border: 1px solid;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
 .menu{
     gap: 20px;
     align-items: center;
+}
+
+.menu {
+    display: none;
 }
 
 .menu a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-
 }
 
 /* HERO SECTION */
@@ -61,7 +85,7 @@ main{
 }
 
 main img{
-    width: 55%;
+    width: 40%;
 }
 
 .hero-container{
@@ -70,7 +94,7 @@ main img{
 }
 
 .hero{
-   padding: 60px 30px; 
+   padding: 40px 20px; 
    color: white;
    gap: 20px;
    flex-direction: column;
@@ -79,7 +103,7 @@ main img{
 
 .skills{
     gap: 20px;
-    font-size: 1.5rem;
+    font-size: 14px;
 }
 
 .skills li{
@@ -102,5 +126,58 @@ main img{
 }
 
 .hero-title{
-    font-size: 3.5rem;
+    font-size: 1.5rem;
+}
+
+section{
+    background-color: white;
+}
+
+.sec-title{
+    justify-content: center;
+    padding: 10px 0px;
+    font-weight: bold;   
+    gap: 10px; 
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+.card{
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* MEDIA */
+@media (min-width: 575.98px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
 }
