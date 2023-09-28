@@ -166,7 +166,7 @@ main img{
 
 .skills{
     gap: 20px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .skills li{
@@ -269,6 +269,56 @@ section{
     flex-direction: column;
     align-items: center;
 }
+
+/* FOOTER */
+
+footer{
+    background-color:#3A546D ;
+    padding: 20px ;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.f-title{
+    justify-content: center;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.content{
+    color: white;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px 20px;
+}
+
+.loc{
+    font-size: 15px;
+}
+
+.social{
+    flex-direction: column;
+}
+
+.logo{
+    justify-content: center;
+    gap: 20px;
+}
+
+.fa-brands{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 15px 18px;
+    width: 20px ;
+    height: 20px;
+    aspect-ratio: 1/1;
+}
+
+
 
 
 
