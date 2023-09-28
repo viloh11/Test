@@ -76,6 +76,7 @@ header{
     display: none;
 }
 
+
 .menu a{
     text-decoration: none;
     color: white;
@@ -373,7 +374,7 @@ footer{
     .skills{
         font-size: 20px;
     }
-    
+
     .skills li::before{
         content:"" ;
         display: table;
