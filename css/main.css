@@ -173,17 +173,6 @@ main img{
     position: relative;
 }
 
-.skills li::before{
-    content:"" ;
-    display: table;
-    position: absolute;
-    top: 50%;
-    right: -14px;
-    width: 8px;
-    height: 1.5px;
-    background-color: white;
-}
-
 .skills .no-before::before{
     display: none;
 }
@@ -325,6 +314,11 @@ footer{
 
 
 /* MEDIA */
+@media (max-width: 575.98px) {
+.skills{
+        flex-wrap: wrap;
+    }
+}
 
 @media (min-width: 768px) {
     /* NAVBAR */
@@ -378,6 +372,17 @@ footer{
 
     .skills{
         font-size: 20px;
+    }
+    
+    .skills li::before{
+        content:"" ;
+        display: table;
+        position: absolute;
+        top: 50%;
+        right: -14px;
+        width: 8px;
+        height: 1.5px;
+        background-color: white;
     }
 
     /* PORTFOLIO */
